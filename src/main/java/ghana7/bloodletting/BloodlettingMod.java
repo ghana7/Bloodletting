@@ -33,7 +33,7 @@ public class BloodlettingMod
     private static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, MODID);
 
     public static final RegistryObject<Enchantment> BLOODLETTING_ENCHANTMENT = ENCHANTMENTS.register("bloodletting", () ->
-            new BloodlettingEnchantment(Enchantment.Rarity.COMMON, EnchantmentType.WEAPON, new EquipmentSlotType[] {EquipmentSlotType.MAINHAND})
+            new BloodlettingEnchantment(Enchantment.Rarity.UNCOMMON, EnchantmentType.WEAPON, new EquipmentSlotType[] {EquipmentSlotType.MAINHAND})
     );
     public BloodlettingMod() {
         ENCHANTMENTS.register(FMLJavaModLoadingContext.get().getModEventBus());
