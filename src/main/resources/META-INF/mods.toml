@@ -11,7 +11,7 @@
 
     [[mods]]
       modId="bloodletting"
-      version="1.0.0.0"
+      version="1.0.1"
       displayName="Bloodletting"
       displayURL="https://github.com/ghana7/Bloodletting"
       logoFile="bloodlettingLogo.png"
